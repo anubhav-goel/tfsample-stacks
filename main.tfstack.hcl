@@ -40,3 +40,8 @@ component "nulls" {
     null = provider.null.this
   }
 }
+
+output "name" {
+  type = string
+  value = component.pet.name
+}
